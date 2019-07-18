@@ -1,8 +1,5 @@
 /*
-    Unminified development version of the datepicker stylesheet. Please use the
-    minified version in production - remember to run a find/replace on the
-    minified file to update the image locations to suit your installation - more
-    info can be found in the header of the minified file.
+    Unminified development version of the datepicker stylesheet. Please use the minified version in production.
     
     F.Y.I: Here's the HTML produced for each instance of the datePicker, in this
     case associated with a form element having an id of "demo-1"
@@ -211,14 +208,14 @@
     declared above. That's all you have to do for IE7 support as it inherits
     the background-position declarations used to reposition the sprite
     */
-    *background-image:url(http://www.yourdomain.com/the/path/to/the/images/datepicker-sprite.png);
+    *background-image:url(../media/datepicker-sprite.png);
     /*
     IE6 gets the filter treatment and an individual image for each animation
     state. This pattern is repeated for all other image-based rules within the
     stylesheet
     */
     _background-image:none;
-    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='http://www.yourdomain.com/the/path/to/the/images/datepicker-normal.png');        
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../media/datepicker-normal.png');        
     }
 /*
     If the datepicker has a valid date then use a different icon for the
@@ -236,7 +233,7 @@
 .oldie .date-picker-dateval:link,
 .oldie .date-picker-dateval:visited
     {
-    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='http://www.yourdomain.com/the/path/to/the/images/datepicker-selected.png');        
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../media/datepicker-selected.png');        
     }
 /*
     Hover states etc for the activation button
@@ -258,7 +255,7 @@
 .oldie .date-picker-control:hover,
 .oldie .date-picker-control:active
     {
-    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='http://www.yourdomain.com/the/path/to/the/images/datepicker-focused.png');             
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../media/datepicker-focused.png');             
     }
 /*
     Disabled activation button
@@ -279,7 +276,7 @@
 .oldie .date-picker-control-disabled:hover,
 .oldie .date-picker-control-disabled:active
     {
-    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='http://www.yourdomain.com/the/path/to/the/images/datepicker-disabled.png');                       
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='../media/datepicker-disabled.png');                       
     }
 .date-picker-control-disabled:hover span,
 .date-picker-control-disabled:active span
@@ -446,7 +443,7 @@
 .oldie .date-picker .date-picker-unused,
 .oldie .date-picker .month-out 
     {
-    *background-image:url(http://www.yourdomain.com/the/path/to/the/images/datepicker-gradient.gif);
+    *background-image:url(../media/datepicker-gradient.gif);
     /*
     Remove from IE6 as it has a bug that never caches images on dynamically
     created elements which results in one http request being made for each
@@ -608,7 +605,7 @@
     }
 .oldie .date-picker .date-picker-today
     {
-    *background:#fff url(http://www.yourdomain.com/the/path/to/the/images/datepicker-today.gif) no-repeat 0 0;
+    *background:#fff url(../media/datepicker-today.gif) no-repeat 0 0;
     }
 .date-picker .month-out.date-picker-highlight 
     {
@@ -668,7 +665,7 @@
 .oldie .date-picker .date-picker-hover,
 .oldie .date-picker .month-out.date-picker-hover
     {
-    *background:#fff url(http://www.yourdomain.com/the/path/to/the/images/datepicker-cursor.jpg) no-repeat 0 0;
+    *background:#fff url(../media/datepicker-cursor.jpg) no-repeat 0 0;
     }
 /* 
     The "disabled days" style 
