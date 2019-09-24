@@ -27,4 +27,4 @@ h2. At a glance...
 
 h2. Demo & Documentation
 
-A comprehensive "demo":http://freqdec.github.io/datePicker/demo/ and full "documentation":http://freqdec.github.io/datePicker/ is available.
+A comprehensive "demo":http://timgs.github.io/datePicker/demo/ and full "documentation":http://timgs.github.io/datePicker/ is available.
