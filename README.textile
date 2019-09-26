@@ -2,6 +2,8 @@ h1. Yet Another Datepicker
 
 An attempt at writing a flexible, framework free, feature-rich and accessible datepicker.
 
+Forked from Yet Another Datepicker by Brian McAllister
+
 h2. At a glance...
 
 * Keyboard shortcuts adhere to "The DHTML Style Guide Working Group (DSGWG) recommendations":http://access.aol.com/dhtml-style-guide-working-group/#datepicker
