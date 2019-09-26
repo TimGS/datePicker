@@ -1,4 +1,4 @@
-/*! DatePicker v6.3.6 MIT/GPL2 @freqdec */
+/*! DatePicker v6.3.7 MIT/GPL2 */
 var datePickerController = (function datePickerController() {
 
     "use strict";
@@ -1408,7 +1408,7 @@ var datePickerController = (function datePickerController() {
 
             // Are we within the wrapper div or the button
             while(el) {
-                if(el.id && el.id.length && el.id.search(reg) != -1) {
+                if(typeof el.id == 'string' /* Avoid Mootools conflict! */ && el.id.length && el.id.search(reg) != -1) {
                     hideDP = false;
                     break;
                 };
